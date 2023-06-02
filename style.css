@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#DD81EC 10%, #81ECE5 90% );
+}
+canvas {
+  display: block;
+  	animation-name: example;
+	  animation-duration: 4s;
+	  animation-iteration-count: infinite;
+  }
+
+
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px black;}
+  to {box-shadow: 1px 1px 38px white;}
+}
+
+#display_score
+{
+  font-size: medium;
+  font-family: 'Nanum Pen Script', cursive;
+  float: left;
+  margin-left: 20px;
+}
+ 
+#display_timer
+{
+  font-size: medium;
+  font-family: 'Nanum Pen Script', cursive;
+  float: right;
+  margin-right: 20px;
+}
+
+#display_sketch_to_be_drawn
+{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
